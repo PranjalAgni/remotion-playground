@@ -9,7 +9,12 @@ export const Resort = () => {
 		'.jpeg');
 
 	return (
-		<div>
+		<div
+			style={{
+				width: '100%',
+				height: '100%',
+			}}
+		>
 			<img style={{width: '100%', height: '100%'}} src={images} />
 			<Audio src={song} startFrom={50} />
 		</div>

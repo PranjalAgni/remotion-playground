@@ -12,7 +12,7 @@ export const RemotionVideo: React.FC = () => {
 				id="Resort"
 				component={Resort}
 				durationInFrames={1000}
-				fps={5}
+				fps={1}
 				width={1920}
 				height={1080}
 			/>
