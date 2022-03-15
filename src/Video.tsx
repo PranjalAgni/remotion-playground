@@ -9,14 +9,6 @@ export const RemotionVideo: React.FC = () => {
 	return (
 		<>
 			<Composition
-				id="Resort"
-				component={Resort}
-				durationInFrames={1000}
-				fps={1}
-				width={1920}
-				height={1080}
-			/>
-			<Composition
 				id="HelloWorld"
 				component={HelloWorld}
 				durationInFrames={150}
@@ -53,6 +45,14 @@ export const RemotionVideo: React.FC = () => {
 				component={Subtitle}
 				durationInFrames={100}
 				fps={30}
+				width={1920}
+				height={1080}
+			/>
+			<Composition
+				id="Resort"
+				component={Resort}
+				durationInFrames={1000}
+				fps={1}
 				width={1920}
 				height={1080}
 			/>
